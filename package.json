@@ -4,9 +4,14 @@
   "description": "A simple example on setting up travis CI",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",  
+    "start": "node index.js",
     "test": "node test/test.js"
   },
   "author": "Ekong Richard",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^3.0.3",
+    "eslint": "^5.15.1",
+    "istanbul": "^0.4.5"
+  }
 }
