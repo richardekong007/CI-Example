@@ -16,6 +16,10 @@ function cubeRoot(a){
 	return a**(1/3);
 }
 
+function quadOf(a){
+	return a**4;
+}
+
 assert.equal(square(4),16);
 
 assert.equal(squareRoot(4),2);
@@ -23,3 +27,5 @@ assert.equal(squareRoot(4),2);
 assert.equal(cubeRoot(27), 3);
 
 assert.equal(cubeOf(3), 27);
+
+assert.eqaul(quadOf(2),16);
