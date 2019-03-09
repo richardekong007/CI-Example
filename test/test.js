@@ -5,11 +5,21 @@ function square(a){
 }
 
 function squareRoot(a){
-	return a**0.5;
+	return a**(1/2);
+}
+
+function cubeOf (a){
+	return a ** 3;
+}
+
+function cubeRoot(a){
+	return a**(1/3);
 }
 
 assert.equal(square(4),16);
 
 assert.equal(squareRoot(4),2);
 
-assert.equal(cubeOf(27), 3);
+assert.equal(cubeRoot(27), 3);
+
+assert.equal(cubeOf(3), 27);
