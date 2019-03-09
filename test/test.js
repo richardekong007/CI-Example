@@ -28,4 +28,4 @@ assert.equal(cubeRoot(27), 3);
 
 assert.equal(cubeOf(3), 27);
 
-assert.eqaul(quadOf(2),16);
+assert.equal(quadOf(2),16);
