@@ -1,0 +1,12 @@
+{
+  "name": "ci-example",
+  "version": "1.0.0",
+  "description": "A simple example on setting up travis CI",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",  
+    "test": "node test/test.js"
+  },
+  "author": "Ekong Richard",
+  "license": "MIT"
+}
