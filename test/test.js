@@ -11,3 +11,5 @@ function squareRoot(a){
 assert.equal(square(4),16);
 
 assert.equal(squareRoot(4),2);
+
+assert.equal(cubeOf(27), 3);
