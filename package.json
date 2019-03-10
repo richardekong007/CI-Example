@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node test/test.js"
+    "test": "nyc --reporter=html --reporter=text ./node_modules/.bin/mocha",
+    "coverage":"nyc report --reporter=text-lcov | coveralls"
   },
   "author": "Ekong Richard",
   "license": "MIT",
   "devDependencies": {
     "coveralls": "^3.0.3",
-    "eslint": "^5.15.1",
-    "istanbul": "^0.4.5"
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0"
   }
 }
