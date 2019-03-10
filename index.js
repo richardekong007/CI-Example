@@ -1,21 +1,20 @@
-function square(a){
-        return a*a;
-}
+module.exports ={
+        square: function(a){
+                return a*a;
+        },
+        squareRoot: function(a){
+                return a**(1/2);
+        },
+        cubeOf: function(a){
+                return a ** 3;
+        },
 
-function squareRoot(a){
-        return a**(1/2);
-}
+        cubeRootOf: function(a){
+                return a**(1/3);
+        },
 
-function cubeOf (a){
-        return a ** 3;
-}
-
-function cubeRoot(a){
-        return a**(1/3);
-}
-
-function quadOf(a){
-        return a**4;
-}
-
+        quadOf: function(a){
+                return a ** 4;
+        }
+};
 
