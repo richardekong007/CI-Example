@@ -18,7 +18,7 @@ describe('Square root operation', function(){
 
 describe('Cube Root operation', function(){
 	it('Cube Root of 27 should be 3', function(){
-		assert.equal(index.cubeRoot(27), 3);
+		assert.equal(index.cubeRootOf(27), 3);
 	});
 });
 
